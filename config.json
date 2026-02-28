@@ -1,8 +1,0 @@
-{
-  "camera_index": 0,
-  "motion_threshold": 5000,
-  "record_fps": 20,
-  "video_resolution": [640, 480],
-  "alert_sound": true,
-  "dark_mode": true
-}
