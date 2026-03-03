@@ -8,7 +8,6 @@ from tkinter import ttk, filedialog
 from collections import deque
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg
 from PIL import Image, ImageTk
-#import pygame
 
 def preprocess_frame(frame, prev_frame):
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
@@ -161,4 +160,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-       
